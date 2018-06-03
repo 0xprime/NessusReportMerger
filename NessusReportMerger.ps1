@@ -14,7 +14,7 @@ Param
 (
     # Path to the files. Defaults to the current path. 
     [string] $filepath = (Resolve-Path .\).Path,
-    # Output file name. Defauilts to merged_nessus_report.nessus.
+    # Output file name. Defaults to merged_nessus_report.nessus.
     [string] $outputfilename = "merged_nessus_report.nessus",
     # Name of the merged report. Defaults to Merged Report.
     [string] $reportName = "Merged Report"
