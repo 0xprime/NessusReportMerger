@@ -54,8 +54,7 @@ else
                 Write-Host + Adding host: $reportHost.Name  -f Green
 
                 # Merge each host into the merged report. 
-                $node = $mergedReport.ImportNode($reportHost, $true)
-                $mergedReport.NessusClientData_v2.Report.AppendChild($node)
+                $mergedReport.NessusClientData_v2.Report.AppendChild($mergedReport.ImportNode($reportHost, $true))
             }
         }    
     }
