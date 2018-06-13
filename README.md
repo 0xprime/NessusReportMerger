@@ -1,6 +1,6 @@
 # Nessus Report Merger
 
-Merges multiple .nessus files into one file.  The resulting file can be imported into Nessus again to genereate a single report.
+Merges multiple .nessus XML files into one file.  The resulting file can be imported into Nessus again to genereate a single report.
 
 ## Examples
 `NessusReportMerger.ps1`
